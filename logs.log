@@ -1,2 +1,263 @@
 [2024-03-26 21:03:41] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 123128
 [2024-03-26 21:04:07] [ERROR] [GlobalException:16] Ya existe un odontologo con el mismo número de matricula
+[2024-03-27 09:23:45] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 123128
+[2024-03-27 09:26:33] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 09:28:05] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 09:43:33] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 09:43:45] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 123128
+[2024-03-27 09:43:51] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 09:47:49] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 09:47:50] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 09:47:51] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 09:54:31] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 09:55:18] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:00:47] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:01:07] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:06:37] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:07:05] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:07:14] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:07:16] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:07:17] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:07:18] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:07:38] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:07:50] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 123128
+[2024-03-27 10:07:53] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:08:32] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:09:34] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 123127
+[2024-03-27 10:09:42] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:10:03] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:12:10] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:18:11] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 123127
+[2024-03-27 10:18:49] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:27:46] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:27:52] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:27:55] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 123127
+[2024-03-27 10:28:01] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:33:00] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:34:21] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:34:22] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:34:23] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:34:24] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:34:25] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:44:26] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:51:26] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 123874264
+[2024-03-27 10:51:36] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:52:42] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 569632
+[2024-03-27 10:52:46] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:53:07] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:53:26] [ERROR] [GlobalException:16] Ya existe un odontologo con el mismo número de matricula
+[2024-03-27 10:58:19] [ERROR] [GlobalException:16] Ya existe un odontologo con el mismo número de matricula
+[2024-03-27 10:58:40] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 10:58:49] [ERROR] [GlobalException:16] Ya existe un odontologo con el mismo número de matricula
+[2024-03-27 11:04:03] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 11:04:09] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 11:04:21] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 11:04:40] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 1232131231
+[2024-03-27 11:04:43] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 11:05:39] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 11:24:43] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 11:30:46] [ERROR] [GlobalException:16] Imposible actualizar la informaciòn del odontologo indicado
+[2024-03-27 11:30:53] [ERROR] [GlobalException:16] Imposible actualizar la informaciòn del odontologo indicado
+[2024-03-27 11:31:15] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 123123
+[2024-03-27 11:36:12] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 11:36:37] [INFO ] [OdontologoService:53] Modificando odontologo con matricula: 123874264
+[2024-03-27 11:36:39] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 11:36:58] [ERROR] [GlobalException:16] Imposible actualizar la informaciòn del odontologo indicado
+[2024-03-27 11:37:12] [INFO ] [OdontologoService:45] Creando odontologo con matricula: askdjakjsh
+[2024-03-27 11:37:17] [INFO ] [OdontologoService:45] Creando odontologo con matricula: asdjkhaskj
+[2024-03-27 11:37:20] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 11:37:51] [ERROR] [GlobalException:16] Ya existe un odontologo con el mismo número de matricula
+[2024-03-27 11:51:33] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 11:53:52] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:20:26] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:21:49] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:22:00] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:22:47] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:22:56] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:23:21] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123127
+[2024-03-27 12:23:34] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:23:42] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 12386138
+[2024-03-27 12:23:44] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:23:50] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:24:01] [INFO ] [OdontologoService:53] Modificando odontologo con matricula: 123127
+[2024-03-27 12:24:03] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:24:08] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123127
+[2024-03-27 12:24:11] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:24:21] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 1232131231
+[2024-03-27 12:25:03] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:33:59] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:35:15] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:35:16] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:35:31] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:35:51] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:36:28] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:36:31] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:36:33] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:36:57] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:37:18] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:37:19] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:38:05] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:38:16] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 44444
+[2024-03-27 12:38:20] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:38:28] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:38:38] [INFO ] [OdontologoService:53] Modificando odontologo con matricula: 123127
+[2024-03-27 12:38:42] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 12:38:47] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123127
+[2024-03-27 12:44:50] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:06:24] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:06:35] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 123123
+[2024-03-27 13:06:47] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:06:59] [ERROR] [GlobalException:16] Ya existe un odontologo con el mismo número de matricula
+[2024-03-27 13:07:17] [INFO ] [OdontologoService:53] Modificando odontologo con matricula: 123123
+[2024-03-27 13:07:21] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:07:30] [ERROR] [GlobalException:16] Imposible actualizar la informaciòn del odontologo indicado
+[2024-03-27 13:07:42] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:07:48] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-27 13:08:01] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:08:05] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-27 13:08:06] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-27 13:08:07] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-27 13:09:39] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:09:43] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-27 13:09:47] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:09:48] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:10:25] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:10:30] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:10:33] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-27 13:11:09] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-27 13:13:10] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:13:13] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-27 13:13:19] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:13:28] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-27 13:16:26] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:16:34] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 1111
+[2024-03-27 13:16:41] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:16:50] [ERROR] [GlobalException:16] Ya existe un odontologo con el mismo número de matricula
+[2024-03-27 13:17:01] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 1231231
+[2024-03-27 13:17:12] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:17:20] [INFO ] [OdontologoService:53] Modificando odontologo con matricula: 123123
+[2024-03-27 13:17:28] [ERROR] [GlobalException:16] Imposible actualizar la informaciòn del odontologo indicado
+[2024-03-27 13:17:56] [INFO ] [OdontologoService:53] Modificando odontologo con matricula: 123123
+[2024-03-27 13:18:04] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:18:08] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-27 13:18:12] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:23:58] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:24:45] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:25:15] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:25:19] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-27 13:25:24] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:25:25] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:25:27] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-27 13:25:32] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:25:38] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123123
+[2024-03-27 13:25:41] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 1111
+[2024-03-27 13:25:51] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-27 13:25:57] [INFO ] [OdontologoService:36] Eliminando odontologo con matricula: 123123
+[2024-03-27 13:26:21] [ERROR] [GlobalException:16] Imposible eliminar la informaciòn del odontologo
+[2024-03-27 13:26:24] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:26:30] [INFO ] [OdontologoService:36] Eliminando odontologo con matricula: 1111
+[2024-03-27 13:26:34] [ERROR] [GlobalException:16] Imposible eliminar la informaciòn del odontologo
+[2024-03-27 13:26:41] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:28:16] [INFO ] [OdontologoService:36] Eliminando odontologo con matricula: 1231231
+[2024-03-27 13:28:20] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:28:23] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:31:25] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:31:55] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:32:40] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:32:59] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:33:25] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:33:56] [ERROR] [GlobalException:16] Imposible eliminar la informaciòn del odontologo
+[2024-03-27 13:34:08] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:34:37] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:34:42] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:50:13] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 13:51:57] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 13:52:08] [INFO ] [PacienteService:43] Creando paciente con dni: 124
+[2024-03-27 13:52:12] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 13:58:43] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 14:00:33] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 14:00:43] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 14:01:00] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 14:01:02] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 14:01:19] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 14:01:19] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 14:01:46] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 14:41:34] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 14:41:51] [INFO ] [PacienteService:43] Creando paciente con dni: 123
+[2024-03-27 14:41:57] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 14:42:49] [ERROR] [GlobalException:16] Ya existe un paciente con el mismo DNI
+[2024-03-27 14:54:48] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 14:58:02] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 14:58:53] [INFO ] [PacienteService:51] Modificando paciente con dni: 123
+[2024-03-27 14:58:58] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 14:59:56] [ERROR] [GlobalException:16] Imposible actualizar la informaciòn del paciente indicado
+[2024-03-27 15:04:26] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 15:04:31] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 15:04:43] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 213123
+[2024-03-27 15:04:45] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 16:02:39] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:03:40] [INFO ] [PacienteService:60] Buscando el paciente con dni: 123
+[2024-03-27 16:04:39] [INFO ] [PacienteService:60] Buscando el paciente con dni: 123
+[2024-03-27 16:05:02] [INFO ] [PacienteService:60] Buscando el paciente con dni: 123
+[2024-03-27 16:05:11] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:05:19] [INFO ] [PacienteService:60] Buscando el paciente con dni: 123
+[2024-03-27 16:05:22] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 16:05:41] [INFO ] [PacienteService:60] Buscando el paciente con dni: 123
+[2024-03-27 16:06:08] [INFO ] [PacienteService:60] Buscando el paciente con dni: 123
+[2024-03-27 16:06:13] [INFO ] [PacienteService:60] Buscando el paciente con dni: 123
+[2024-03-27 16:06:14] [INFO ] [PacienteService:60] Buscando el paciente con dni: 123
+[2024-03-27 16:06:21] [INFO ] [PacienteService:60] Buscando el paciente con dni: 123
+[2024-03-27 16:06:36] [INFO ] [PacienteService:60] Buscando el paciente con dni: 123
+[2024-03-27 16:08:03] [INFO ] [PacienteService:60] Buscando el paciente con dni: 123
+[2024-03-27 16:08:06] [INFO ] [PacienteService:60] Buscando el paciente con dni: 123
+[2024-03-27 16:08:18] [ERROR] [GlobalException:16] Paciente no encontrado
+[2024-03-27 16:08:22] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 16:09:00] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:09:11] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 16:09:16] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:09:32] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:09:53] [ERROR] [GlobalException:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "2024-01-03": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '2024-01-03' could not be parsed at index 10
+[2024-03-27 16:11:24] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 65589
+[2024-03-27 16:11:24] [INFO ] [PacienteService:43] Creando paciente con dni: 52596
+[2024-03-27 16:11:24] [INFO ] [TurnoService:48] Creando turno con id: null
+[2024-03-27 16:12:01] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 65589
+[2024-03-27 16:12:01] [INFO ] [PacienteService:43] Creando paciente con dni: 52596
+[2024-03-27 16:12:01] [INFO ] [TurnoService:48] Creando turno con id: null
+[2024-03-27 16:12:33] [INFO ] [PacienteService:51] Modificando paciente con dni: 124
+[2024-03-27 16:12:37] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:15:57] [ERROR] [GlobalException:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "2024-03-06 20:30": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '2024-03-06 20:30' could not be parsed at index 10
+[2024-03-27 16:16:50] [INFO ] [PacienteService:51] Modificando paciente con dni: 124
+[2024-03-27 16:16:55] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:22:22] [ERROR] [GlobalException:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "128736": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text '128736' could not be parsed at index 0
+[2024-03-27 16:22:36] [ERROR] [GlobalException:23] JSON parse error: Cannot deserialize value of type `java.time.LocalDateTime` from String "lkj": Failed to deserialize java.time.LocalDateTime: (java.time.format.DateTimeParseException) Text 'lkj' could not be parsed at index 0
+[2024-03-27 16:26:08] [INFO ] [PacienteService:51] Modificando paciente con dni: 124
+[2024-03-27 16:27:07] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:27:56] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:28:59] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 16:35:05] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:35:17] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:35:21] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:35:56] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:36:32] [INFO ] [PacienteService:51] Modificando paciente con dni: 124
+[2024-03-27 16:36:35] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:36:48] [INFO ] [PacienteService:60] Buscando el paciente con dni: 123
+[2024-03-27 16:36:51] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 16:36:53] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:36:58] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 16:37:42] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 16:37:49] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:37:55] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 16:38:11] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 16:38:15] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 16:39:00] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 16:39:52] [ERROR] [GlobalException:16] Paciente no encontrado
+[2024-03-27 16:40:25] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 16:46:18] [ERROR] [GlobalException:16] Imposible eliminar la informaciòn del odontologo
+[2024-03-27 16:46:29] [ERROR] [GlobalException:16] Imposible eliminar la informaciòn del odontologo
+[2024-03-27 16:46:34] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 16:46:44] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 16:46:51] [INFO ] [PacienteService:34] Eliminando paciente con dni: 124
+[2024-03-27 16:46:56] [ERROR] [GlobalException:16] Imposible eliminar la informaciòn del paciente
+[2024-03-27 16:47:04] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 16:47:21] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 16:47:32] [INFO ] [PacienteService:26] listando los pacientes

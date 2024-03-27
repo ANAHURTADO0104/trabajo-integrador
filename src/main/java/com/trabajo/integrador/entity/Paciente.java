@@ -24,7 +24,6 @@ public class Paciente {
         this.apellido=apellido;
         this.domicilio=domicilio;
         this.dni=dni;
-
     }
 
     @Override

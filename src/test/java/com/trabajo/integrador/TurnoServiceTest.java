@@ -32,7 +32,7 @@ public class TurnoServiceTest {
         Odontologo odontologo= new Odontologo("RODOLFO","PEREZ","65589");
         Paciente paciente =new Paciente("CAMILO","PEREZ","AV 9","52596");
         LocalDateTime fecha= LocalDateTime.now();
-
+        System.out.println(fecha.toString());
         this.odontologoService.agregar(odontologo);
         this.pacienteService.agregar(paciente);
 
