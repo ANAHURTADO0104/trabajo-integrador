@@ -1,0 +1,2 @@
+[2024-03-26 21:03:41] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 123128
+[2024-03-26 21:04:07] [ERROR] [GlobalException:16] Ya existe un odontologo con el mismo número de matricula
