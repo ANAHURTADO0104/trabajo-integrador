@@ -31,8 +31,8 @@ public class TurnoController {
 
     @PostMapping
     public ResponseEntity<Turno> agendar (@RequestBody TurnoDTO turno) throws Exception {
-        Paciente paciente = this.pacienteService.buscarPorId(turno.getPaciente());
         Odontologo odontologo = this.odontologoService.buscarPorId(turno.getOdontologo());
+        Paciente paciente = this.pacienteService.buscarPorId(turno.getPaciente());
         Turno nuevoTurno = new Turno(turno.getFecha(), odontologo, paciente);
         if(paciente != null && odontologo!= null){
             return ResponseEntity.ok(this.turnoService.agregar(nuevoTurno));

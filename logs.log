@@ -296,3 +296,28 @@
 [2024-03-27 21:48:44] [INFO ] [TurnoService:26] listando los turnos
 [2024-03-27 22:04:49] [INFO ] [OdontologoService:28] listando los odontologos
 [2024-03-27 22:05:06] [ERROR] [GlobalException:23] JSON parse error: Cannot construct instance of `com.trabajo.integrador.entity.Odontologo` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('123127')
+[2024-03-27 22:05:43] [ERROR] [GlobalException:16] Paciente no encontrado
+[2024-03-27 22:05:47] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 123127
+[2024-03-27 22:05:51] [INFO ] [PacienteService:43] Creando paciente con dni: 124
+[2024-03-27 22:05:55] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 22:05:55] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123127
+[2024-03-27 22:05:55] [INFO ] [TurnoService:48] Creando turno con id: null
+[2024-03-27 22:15:02] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 22:15:08] [INFO ] [TurnoService:35] Eliminando turno con id: 1
+[2024-03-27 22:15:11] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 22:15:16] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 22:15:24] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 22:15:29] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 22:15:53] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 22:15:53] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123127
+[2024-03-27 22:15:53] [INFO ] [TurnoService:48] Creando turno con id: null
+[2024-03-27 22:15:57] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 22:16:10] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 22:16:18] [INFO ] [TurnoService:35] Eliminando turno con id: 2
+[2024-03-27 22:16:22] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 22:16:27] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 22:16:36] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 22:16:54] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 22:16:54] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123127
+[2024-03-27 22:16:54] [INFO ] [TurnoService:48] Creando turno con id: null
+[2024-03-27 22:16:58] [INFO ] [TurnoService:26] listando los turnos
