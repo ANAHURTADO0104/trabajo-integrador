@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../../js/pacientes/put_paciente.js"></script>
+    <script type="text/javascript" src="../../js/turnos/put_turno.js"></script>
 </head>
 <body>
 
@@ -23,14 +23,14 @@
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                    Gestión pacientes
+                    Gestión turnos
                 </a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="turnoLista.html">Listar pacientes</a>
-                    <a class="dropdown-item" href="turnoAgregar.html">Agregar paciente</a>
-                    <a class="dropdown-item active" href="turnoActualizar.html">Modificar paciente</a>
-                    <a class="dropdown-item" href="turnoBuscar.html">Buscar paciente</a>
-                    <a class="dropdown-item" href="turnoEliminar.html">Eliminar paciente</a>
+                    <a class="dropdown-item" href="turnoLista.html">Listar turnos</a>
+                    <a class="dropdown-item" href="turnoAgregar.html">Agregar turno</a>
+                    <a class="dropdown-item active" href="turnoActualizar.html">Modificar turno</a>
+                    <a class="dropdown-item" href="turnoBuscar.html">Buscar turno</a>
+                    <a class="dropdown-item" href="turnoEliminar.html">Eliminar turno</a>
                 </div>
             </li>
 
@@ -42,28 +42,30 @@
 <div class="container">
     <div class="row">
         <div class="col-sm-7" style="background-color:#e6fffa; padding:10px; border-radius:3px"
-             id="div_paciente_updating">
-            <h3>Modificar pacientes</h3>
-            <form id="update_paciente_form">
+             id="div_turno_updating">
+            <h3>Modificar turnos</h3>
+            <form id="update_turno_form">
                 <div class="form-group">
-                    <label >Dni:</label>
-                    <input type="text" class="form-control" placeholder="DNI" id="dni" required>
+                    <label class="control-label" for="id">Id:</label>
+                    <input type="text" class="form-control" placeholder="Id de turno" id="id" required>
                 </div>
                 <div class="form-group">
-                    <label >Nombre:</label>
-                    <input type="text" class="form-control" placeholder="nombre" id="nombre" required>
+                    <label class="control-label" for="odontologo">Odontologo:</label>
+                    <input type="text" class="form-control" id="odontologo"
+                           placeholder="Ingrese la matricula del odontólogo"
+                           name="odontologo" required></input>
                 </div>
                 <div class="form-group">
-                    <label >Apellido</label>
-                    <input type="text" class="form-control" placeholder="apellido" id="apellido" required>
+                    <label class="control-label" for="paciente">Paciente:</label>
+                    <input type="text" class="form-control" id="paciente"
+                           placeholder="Ingrese el dni del paciente"
+                           name="paciente" required></input>
                 </div>
                 <div class="form-group">
-                    <label >Domicilio</label>
-                    <input type="text" class="form-control" placeholder="domicilio" id="domicilio" required>
-                </div>
-                <div class="form-group">
-                    <label >Fecha alta</label>
-                    <input type="datetime-local" class="form-control" placeholder="fecha de alta (yyyy-MM-ddTHH:mm)" id="fecha_alta" >
+                    <label class="control-label" for="fecha">Fecha</label>
+                    <input type="datetime-local" class="form-control" id="fecha"
+                           placeholder="fecha de la cita (yyyy-MM-ddTHH:mm)"
+                           name="fecha" required>
                 </div>
                 <button type="submit" class="btn btn-primary">Modificar</button>
             </form>

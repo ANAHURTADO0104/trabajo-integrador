@@ -1,19 +1,17 @@
 window.addEventListener('load', function () {
-    const formulario = document.querySelector('#update_paciente_form');
+    const formulario = document.querySelector('#update_turno_form');
 
     formulario.addEventListener('submit', function (event) {
         event.preventDefault();
         document.querySelector('#response').style.display = "none";
         const formData = {
-            nombre: document.querySelector('#nombre').value,
-            apellido: document.querySelector('#apellido').value,
-            dni: document.querySelector('#dni').value,
-            domicilio: document.querySelector('#domicilio').value,
-            fechaAlta: document.querySelector('#fecha_alta').value
-
+            id: document.querySelector('#id').value,
+            fecha: document.querySelector('#fecha').value,
+            odontologo: document.querySelector('#odontologo').value,
+            paciente: document.querySelector('#paciente').value
         };
         console.log(formData)
-        const url = 'http://localhost:8080/paciente';
+        const url = 'http://localhost:8080/turno';
         const settings = {
             method: 'PUT',
             headers: {
@@ -30,7 +28,7 @@ window.addEventListener('load', function () {
                 }else{
                      let successAlert = '<div class="alert alert-success alert-dismissible">' +
                          '<button type="button" class="close" data-dismiss="alert">&times;</button>' +
-                         '<strong></strong> Paciente modificado </div>'
+                         '<strong></strong> Turno modificado </div>'
                      document.querySelector('#response').innerHTML = successAlert;
                      document.querySelector('#response').style.display = "block";
                      resetUploadForm();
@@ -51,10 +49,9 @@ window.addEventListener('load', function () {
     }
 
     function resetUploadForm(){
-        document.querySelector('#nombre').value = "";
-        document.querySelector('#apellido').value = "";
-        document.querySelector('#dni').value = "";
-        document.querySelector('#domicilio').value = "";
-        document.querySelector('#fecha_alta').value = "";
+        document.querySelector('#id').value = "";
+        document.querySelector('#fecha').value = "";
+        document.querySelector('#odontologo').value = "";
+        document.querySelector('#paciente').value = "";
     }
 });

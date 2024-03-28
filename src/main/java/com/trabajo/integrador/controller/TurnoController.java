@@ -1,6 +1,7 @@
 package com.trabajo.integrador.controller;
 
-import com.trabajo.integrador.dto.TurnoDTO;
+import com.trabajo.integrador.dto.CrearTurnoDTO;
+import com.trabajo.integrador.dto.EditarTurnoDTO;
 import com.trabajo.integrador.entity.Odontologo;
 import com.trabajo.integrador.entity.Paciente;
 import com.trabajo.integrador.entity.Turno;
@@ -30,14 +31,11 @@ public class TurnoController {
     }
 
     @PostMapping
-    public ResponseEntity<Turno> agendar (@RequestBody TurnoDTO turno) throws Exception {
+    public ResponseEntity<Turno> agendar (@RequestBody CrearTurnoDTO turno) throws Exception {
         Odontologo odontologo = this.odontologoService.buscarPorId(turno.getOdontologo());
         Paciente paciente = this.pacienteService.buscarPorId(turno.getPaciente());
         Turno nuevoTurno = new Turno(turno.getFecha(), odontologo, paciente);
-        if(paciente != null && odontologo!= null){
-            return ResponseEntity.ok(this.turnoService.agregar(nuevoTurno));
-        }
-        throw new CustomErrorException("Odontologo o paciente no encontrado", 409);
+        return ResponseEntity.ok(this.turnoService.agregar(nuevoTurno));
     }
 
     @GetMapping
@@ -49,8 +47,14 @@ public class TurnoController {
     }
 
     @PutMapping
-    public ResponseEntity<Turno> editar(@RequestBody Turno turno) throws Exception{
-        return ResponseEntity.ok(this.turnoService.modificar(turno));
+    public ResponseEntity<Turno> editar(@RequestBody EditarTurnoDTO turno) throws Exception{
+        Odontologo odontologo = this.odontologoService.buscarPorId(turno.getOdontologo());
+        Paciente paciente = this.pacienteService.buscarPorId(turno.getPaciente());
+        Turno editarTurno = turnoService.buscarPorId(turno.getId());
+        editarTurno.setFecha(turno.getFecha());
+        editarTurno.setOdontologo(odontologo);
+        editarTurno.setPaciente(paciente);
+        return ResponseEntity.ok(this.turnoService.modificar(editarTurno));
     }
 
     @DeleteMapping Boolean eliminar(@RequestParam Long id) throws Exception{

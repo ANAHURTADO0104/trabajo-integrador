@@ -9,7 +9,7 @@ import java.time.LocalDateTime;
 @AllArgsConstructor
 @Getter
 @Setter
-public class TurnoDTO {
+public class CrearTurnoDTO {
     private LocalDateTime fecha;
     private String odontologo;
     private String paciente;

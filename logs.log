@@ -321,3 +321,48 @@
 [2024-03-27 22:16:54] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123127
 [2024-03-27 22:16:54] [INFO ] [TurnoService:48] Creando turno con id: null
 [2024-03-27 22:16:58] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 22:18:20] [ERROR] [GlobalException:16] Paciente no encontrado
+[2024-03-27 22:18:42] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 22:18:42] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-28 09:39:47] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-28 09:39:49] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-28 09:39:53] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-28 09:40:04] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 123
+[2024-03-28 09:40:08] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-28 09:40:23] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 124
+[2024-03-28 09:40:25] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-28 09:40:31] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-28 09:40:49] [INFO ] [PacienteService:43] Creando paciente con dni: 111
+[2024-03-28 09:40:51] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-28 09:41:11] [INFO ] [PacienteService:43] Creando paciente con dni: 112
+[2024-03-28 09:41:13] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-28 09:41:36] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-28 09:41:57] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123
+[2024-03-28 09:41:57] [INFO ] [PacienteService:60] Buscando el paciente con dni: 111
+[2024-03-28 09:41:57] [INFO ] [TurnoService:48] Creando turno con id: null
+[2024-03-28 09:42:00] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-28 09:42:34] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123
+[2024-03-28 09:42:34] [INFO ] [PacienteService:60] Buscando el paciente con dni: 112
+[2024-03-28 09:42:34] [ERROR] [GlobalException:16] El odontologo ya tiene un turno agendado en la misma fecha y hora
+[2024-03-28 09:43:07] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123
+[2024-03-28 09:43:07] [INFO ] [PacienteService:60] Buscando el paciente con dni: 112
+[2024-03-28 09:43:07] [INFO ] [TurnoService:48] Creando turno con id: null
+[2024-03-28 09:43:10] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-28 09:44:12] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123
+[2024-03-28 09:44:12] [INFO ] [PacienteService:60] Buscando el paciente con dni: 112
+[2024-03-28 09:44:12] [INFO ] [TurnoService:66] Buscando el turno con id: 1
+[2024-03-28 09:44:12] [INFO ] [TurnoService:57] Modificando turno con id: 1
+[2024-03-28 09:44:14] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-28 09:44:33] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123
+[2024-03-28 09:44:33] [ERROR] [GlobalException:16] Paciente no encontrado
+[2024-03-28 09:44:51] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-28 09:45:04] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123
+[2024-03-28 09:45:04] [INFO ] [PacienteService:60] Buscando el paciente con dni: 111
+[2024-03-28 09:45:04] [ERROR] [GlobalException:16] Turno no encontrado
+[2024-03-28 09:45:16] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-28 09:45:21] [INFO ] [TurnoService:66] Buscando el turno con id: 1
+[2024-03-28 09:45:24] [INFO ] [TurnoService:66] Buscando el turno con id: 2
+[2024-03-28 09:45:29] [INFO ] [TurnoService:35] Eliminando turno con id: 1
+[2024-03-28 09:45:33] [ERROR] [GlobalException:16] Imposible eliminar la informaciòn del turno
+[2024-03-28 09:45:37] [ERROR] [GlobalException:16] Turno no encontrado
+[2024-03-28 09:45:41] [INFO ] [TurnoService:26] listando los turnos
