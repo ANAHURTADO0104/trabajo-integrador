@@ -1,6 +1,6 @@
 package com.trabajo.integrador.exception;
 
-import com.trabajo.integrador.dto.ErrorDTO;
+import com.trabajo.integrador.dto.response.ErrorDTO;
 import org.apache.log4j.Logger;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.HttpStatusCode;

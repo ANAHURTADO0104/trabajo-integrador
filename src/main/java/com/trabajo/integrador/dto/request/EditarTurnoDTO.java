@@ -1,4 +1,4 @@
-package com.trabajo.integrador.dto;
+package com.trabajo.integrador.dto.request;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

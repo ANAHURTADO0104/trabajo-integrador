@@ -1,11 +1,10 @@
 package com.trabajo.integrador.controller;
 
-import com.trabajo.integrador.dto.CrearTurnoDTO;
-import com.trabajo.integrador.dto.EditarTurnoDTO;
+import com.trabajo.integrador.dto.request.CrearTurnoDTO;
+import com.trabajo.integrador.dto.request.EditarTurnoDTO;
 import com.trabajo.integrador.entity.Odontologo;
 import com.trabajo.integrador.entity.Paciente;
 import com.trabajo.integrador.entity.Turno;
-import com.trabajo.integrador.exception.CustomErrorException;
 import com.trabajo.integrador.service.interfaces.ICrudService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
