@@ -1,5 +1,6 @@
 package com.trabajo.integrador.controller;
 
+import com.trabajo.integrador.dto.TurnoDTO;
 import com.trabajo.integrador.entity.Odontologo;
 import com.trabajo.integrador.entity.Paciente;
 import com.trabajo.integrador.entity.Turno;
@@ -29,10 +30,12 @@ public class TurnoController {
     }
 
     @PostMapping
-    public ResponseEntity<Turno> agendar (@RequestBody Turno turno) throws Exception {
-        if(this.pacienteService.buscarPorId(turno.getPaciente().getDni()) != null
-        && this.odontologoService.buscarPorId(turno.getOdontologo().getMatricula()) != null){
-            return ResponseEntity.ok(this.turnoService.agregar(turno));
+    public ResponseEntity<Turno> agendar (@RequestBody TurnoDTO turno) throws Exception {
+        Paciente paciente = this.pacienteService.buscarPorId(turno.getPaciente());
+        Odontologo odontologo = this.odontologoService.buscarPorId(turno.getOdontologo());
+        Turno nuevoTurno = new Turno(turno.getFecha(), odontologo, paciente);
+        if(paciente != null && odontologo!= null){
+            return ResponseEntity.ok(this.turnoService.agregar(nuevoTurno));
         }
         throw new CustomErrorException("Odontologo o paciente no encontrado", 409);
     }

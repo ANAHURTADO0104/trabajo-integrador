@@ -8,7 +8,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../../js/pacientes/post_paciente.js"></script>
+    <script type="text/javascript" src="../../js/turnos/post_turno.js"></script>
 </head>
 <body>
 
@@ -23,14 +23,14 @@
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                    Agregar pacientes
+                    Agregar turnos
                 </a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item" href="turnoLista.html">Listar pacientes</a>
-                    <a class="dropdown-item active" href="turnoAgregar.html">Agregar paciente</a>
-                    <a class="dropdown-item" href="turnoActualizar.html">Modificar paciente</a>
-                    <a class="dropdown-item" href="turnoBuscar.html">Buscar paciente</a>
-                    <a class="dropdown-item" href="turnoEliminar.html">Eliminar paciente</a>
+                    <a class="dropdown-item" href="turnoLista.html">Listar turnos</a>
+                    <a class="dropdown-item active" href="turnoAgregar.html">Agregar turno</a>
+                    <a class="dropdown-item" href="turnoActualizar.html">Modificar turno</a>
+                    <a class="dropdown-item" href="turnoBuscar.html">Buscar turno</a>
+                    <a class="dropdown-item" href="turnoEliminar.html">Eliminar turno</a>
                 </div>
             </li>
 
@@ -40,34 +40,27 @@
 </nav>
 
 <div class="container">
-
     <div class="row">
         <div class="col-sm-7" style="background-color:#e6fffa; padding:10px; border-radius:3px">
-            <h3>Agregar pacientes</h3>
-            <form id="add_new_paciente">
+            <h3>Agregar turnos</h3>
+            <form id="add_new_turno">
                 <div class="form-group">
-                    <label class="control-label" for="dni">Dni:</label>
-                    <input type="text" class="form-control" id="dni"
-                           placeholder="Ingrese el dni"
-                           name="dni" required></input>
+                    <label class="control-label" for="odontologo">Odontologo:</label>
+                    <input type="text" class="form-control" id="odontologo"
+                           placeholder="Ingrese la matricula del odontólogo"
+                           name="odontologo" required></input>
                 </div>
                 <div class="form-group">
-                    <label class="control-label" for="nombre">Nombre:</label>
-                    <input type="text" class="form-control" id="nombre"
-                           placeholder="Ingrese el nombre"
-                           name="nombre" required></input>
+                    <label class="control-label" for="paciente">Paciente:</label>
+                    <input type="text" class="form-control" id="paciente"
+                           placeholder="Ingrese el dni del paciente"
+                           name="paciente" required></input>
                 </div>
                 <div class="form-group">
-                    <label class="control-label" for="apellido">Apellido:</label>
-                    <input type="text" class="form-control" id="apellido"
-                           placeholder="Ingrese el apellido"
-                           name="apellido" required></input>
-                </div>
-                <div class="form-group">
-                    <label class="control-label" for="domicilio">Domicilio:</label>
-                    <input type="text" class="form-control" id="domicilio"
-                           placeholder="Ingrese el domicilio"
-                           name="domicilio" required></input>
+                    <label class="control-label" for="fecha">Fecha</label>
+                    <input type="datetime-local" class="form-control" id="fecha"
+                           placeholder="fecha de la cita (yyyy-MM-ddTHH:mm)"
+                           name="fecha" required>
                 </div>
                 <button type="submit" class="btn btn-danger"
                         id="btn-add-new-paciente">Guardar</button>

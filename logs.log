@@ -262,3 +262,37 @@
 [2024-03-27 16:47:21] [INFO ] [OdontologoService:28] listando los odontologos
 [2024-03-27 16:47:32] [INFO ] [PacienteService:26] listando los pacientes
 [2024-03-27 21:30:53] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 21:32:19] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 21:32:22] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 21:32:32] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 123127
+[2024-03-27 21:32:35] [INFO ] [PacienteService:43] Creando paciente con dni: 124
+[2024-03-27 21:32:41] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 21:32:41] [ERROR] [GlobalException:16] Odontologo no encontrado
+[2024-03-27 21:33:00] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 21:33:00] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123127
+[2024-03-27 21:33:00] [INFO ] [TurnoService:48] Creando turno con id: null
+[2024-03-27 21:33:03] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 21:33:35] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 21:33:45] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 21:33:58] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 21:34:25] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 21:34:29] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-27 21:34:36] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 21:39:45] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 21:39:57] [INFO ] [TurnoService:35] Eliminando turno con id: 1
+[2024-03-27 21:40:02] [ERROR] [GlobalException:16] Imposible eliminar la informaciòn del turno
+[2024-03-27 21:40:05] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 21:40:14] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 21:40:18] [INFO ] [PacienteService:60] Buscando el paciente con dni: 124
+[2024-03-27 21:40:18] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 123127
+[2024-03-27 21:40:18] [INFO ] [TurnoService:48] Creando turno con id: null
+[2024-03-27 21:40:24] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 21:48:04] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 21:48:08] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 21:48:10] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 21:48:19] [INFO ] [TurnoService:66] Buscando el turno con id: 2
+[2024-03-27 21:48:35] [ERROR] [GlobalException:16] Turno no encontrado
+[2024-03-27 21:48:41] [INFO ] [TurnoService:35] Eliminando turno con id: 2
+[2024-03-27 21:48:44] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-27 22:04:49] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-27 22:05:06] [ERROR] [GlobalException:23] JSON parse error: Cannot construct instance of `com.trabajo.integrador.entity.Odontologo` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('123127')
