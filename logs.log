@@ -405,3 +405,40 @@
 [2024-03-28 10:01:04] [INFO ] [PacienteService:43] Creando paciente con dni: 32806
 [2024-03-28 10:01:04] [INFO ] [TurnoService:48] Creando turno con id: null
 [2024-03-28 10:01:04] [INFO ] [TurnoService:66] Buscando el turno con id: 5
+[2024-03-28 10:49:52] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 25926
+[2024-03-28 10:49:52] [INFO ] [OdontologoService:53] Modificando odontologo con matricula: 25926
+[2024-03-28 10:49:52] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 35289
+[2024-03-28 10:49:52] [INFO ] [OdontologoService:28] listando los odontologos
+[2024-03-28 10:49:52] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 15289
+[2024-03-28 10:49:52] [INFO ] [OdontologoService:36] Eliminando odontologo con matricula: 15289
+[2024-03-28 10:49:52] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 65289
+[2024-03-28 10:49:52] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 25936
+[2024-03-28 10:49:52] [INFO ] [OdontologoService:62] Buscando el odontologo con matricula: 25936
+[2024-03-28 10:49:52] [INFO ] [PacienteService:43] Creando paciente con dni: 22796
+[2024-03-28 10:49:52] [INFO ] [PacienteService:51] Modificando paciente con dni: 22796
+[2024-03-28 10:49:52] [INFO ] [PacienteService:43] Creando paciente con dni: 42796
+[2024-03-28 10:49:52] [INFO ] [PacienteService:26] listando los pacientes
+[2024-03-28 10:49:52] [INFO ] [PacienteService:43] Creando paciente con dni: 32796
+[2024-03-28 10:49:52] [INFO ] [PacienteService:34] Eliminando paciente con dni: 32796
+[2024-03-28 10:49:52] [INFO ] [PacienteService:43] Creando paciente con dni: 52796
+[2024-03-28 10:49:52] [INFO ] [PacienteService:43] Creando paciente con dni: 26796
+[2024-03-28 10:49:52] [INFO ] [PacienteService:60] Buscando el paciente con dni: 26796
+[2024-03-28 10:49:52] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 45289
+[2024-03-28 10:49:52] [INFO ] [PacienteService:43] Creando paciente con dni: 32896
+[2024-03-28 10:49:52] [INFO ] [TurnoService:48] Creando turno con id: null
+[2024-03-28 10:49:52] [INFO ] [TurnoService:57] Modificando turno con id: 1
+[2024-03-28 10:49:52] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 55589
+[2024-03-28 10:49:52] [INFO ] [PacienteService:43] Creando paciente con dni: 42596
+[2024-03-28 10:49:52] [INFO ] [TurnoService:48] Creando turno con id: null
+[2024-03-28 10:49:52] [INFO ] [TurnoService:26] listando los turnos
+[2024-03-28 10:49:53] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 45689
+[2024-03-28 10:49:53] [INFO ] [PacienteService:43] Creando paciente con dni: 32696
+[2024-03-28 10:49:53] [INFO ] [TurnoService:48] Creando turno con id: null
+[2024-03-28 10:49:53] [INFO ] [TurnoService:35] Eliminando turno con id: 3
+[2024-03-28 10:49:53] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 65589
+[2024-03-28 10:49:53] [INFO ] [PacienteService:43] Creando paciente con dni: 52596
+[2024-03-28 10:49:53] [INFO ] [TurnoService:48] Creando turno con id: null
+[2024-03-28 10:49:53] [INFO ] [OdontologoService:45] Creando odontologo con matricula: 45209
+[2024-03-28 10:49:53] [INFO ] [PacienteService:43] Creando paciente con dni: 32806
+[2024-03-28 10:49:53] [INFO ] [TurnoService:48] Creando turno con id: null
+[2024-03-28 10:49:53] [INFO ] [TurnoService:66] Buscando el turno con id: 5
