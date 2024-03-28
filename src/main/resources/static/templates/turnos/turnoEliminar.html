@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <title>Odontólogos</title>
+    <title>DH Clínica Dental</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-    <script text="text/javascript" src="../../js/odontologos/get_odontologo.js"></script>
+    <script type="text/javascript" src="../../js/turnos/delete_turno.js"></script>
 </head>
 <body>
 
@@ -23,44 +23,37 @@
 
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
-                    Listar odontólogos
+                    Eliminar turno
                 </a>
                 <div class="dropdown-menu">
-                    <a class="dropdown-item active" href="odontologoLista.html">Listar odontólogos</a>
-                    <a class="dropdown-item" href="odontologoAgregar.html">Agregar odontólogo</a>
-                    <a class="dropdown-item" href="odontologoActualizar.html">Modificar odontólogo</a>
-                    <a class="dropdown-item" href="odontologoBuscar.html">Buscar odontólogo</a>
-                    <a class="dropdown-item" href="odontologoEliminar.html">Eliminar odontólogo</a>
+                    <a class="dropdown-item" href="turnoLista.html">Listar turnos</a>
+                    <a class="dropdown-item" href="turnoAgregar.html">Agregar turno</a>
+                    <a class="dropdown-item" href="turnoActualizar.html">Modificar turno</a>
+                    <a class="dropdown-item" href="turnoBuscar.html">Buscar turno</a>
+                    <a class="dropdown-item active" href="turnoEliminar.html">Eliminar turno</a>
                 </div>
             </li>
-
         </ul>
-
     </div>
 </nav>
 
-
 <div class="container">
-    <div id="div_dentist_table">
-        <h3>Odontólogos</h3>
-        <div class="row col-md-6 table-responsive">
-            <table id="dentistTable" class="table table-striped">
-                <thead>
-                <tr>
-                    <th>Matrícula</th>
-                    <th>Nombre</th>
-                    <th>Apellido</th>
-                    <th></th>
-                </tr>
-                </thead>
-                <tbody id="dentistTableBody">
+    <div class="row">
+        <div class="col-sm-7" style="background-color:#e6fffa; padding:10px; border-radius:3px"
+             id="div_turno_updating">
+            <h3>Eliminar turnos</h3>
+            <form id="delete_turno">
+                <div class="form-group">
+                    <label >Id:</label>
+                    <input type="text" class="form-control" placeholder="id" id="id" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Eliminar</button>
+            </form>
+            <div id="response" style="display:none; margin:10px">
+            </div>
+        </div>
+    </div>
+</div>
 
-                </tbody>
-            </table>
-        </div>
-        <div id="response" style="display:none; margin:10px">
-        </div>
-</div>
-</div>
 </body>
 </html>
